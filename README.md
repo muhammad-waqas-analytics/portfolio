@@ -1,85 +1,94 @@
-# 🌐 Ahmad Khan — Personal Portfolio
+📊 Muhammad Waqas — Data Analyst & Python for Data Science
 
-Welcome to my personal portfolio website. This site showcases my work as a freelance web developer — including my services, sample projects, pricing, and ways to collaborate.
+Welcome to my personal portfolio repository.
+This space showcases my journey as a Data Analyst, where I build automated data workflows, dashboards, and analytics tools using Python and Excel integration.
 
-🔗 **Live Site:**  https://ahmadkhan7.github.io/portfolio
+🔗 Portfolio: [GitHub Projects](https://muhammad-waqas-analytics.github.io/portfolio/)
 
----
+📂 Main Project Folder: SALES_ANALYTICS_DASHBOARD
 
-## 💼 About Me
+💼 About Me
 
-Hi, I’m **Ahmad**, a freelance web developer focused on creating fast, responsive, and clean websites. I work with small businesses, individuals, and startups to bring their ideas online with modern design and functionality.
+Hi, I’m Muhammad Waqas, a passionate Data Analyst skilled in Python for Data Science.
+I focus on automating Excel-based processes, cleaning and analyzing business data, and delivering clear insights through visual dashboards and reports.
 
----
+My long-term goal is to develop a complete automated textile-scrap analysis system — from Excel data → cleaned analysis → PDF dashboard → weekly email reporting.
 
-## 🚀 Key Features
+🚀 Key Features of My Projects
 
-- Clean and responsive layout using HTML + CSS
-- ScrollReveal animations for interactive sections
-- Live pricing section with 4 service tiers (Basic, Advanced, Featured, Custom)
-- “Partner With Me” commission-based recruitment page
-- Mobile-first design and fully optimized assets
-- Integrated contact section with social links and CTA
+Automated Excel data cleaning using Pandas & NumPy
 
----
+Data visualization with Matplotlib & Seaborn
 
-## 🛠️ Technologies Used
+Summary dashboards exported as PDF reports
 
-- HTML5  
-- CSS3 (with custom variables and responsive grid)  
-- Boxicons for icons  
-- Google Fonts (`Poppins`)  
-- ScrollReveal.js  
-- Google Forms for partner registration
+Scheduled email automation for weekly reporting
 
----
+Clean, well-commented Python scripts for beginners
 
-## 📁 Folder Structure
+Organized folder structure for easy project management
 
-/portfolio-root/
+🛠️ Technologies & Tools
+
+Languages: Python 3.11
+
+Libraries: Pandas, NumPy, Matplotlib, Seaborn
+
+Data Sources: Excel (.xlsx), CSV
+
+Reporting: ReportLab, OpenPyXL, Matplotlib charts
+
+Automation: Python scripting + Task Scheduler
+
+Version Control: Git & GitHub
+
+📁 Folder Structure
+/scrap_analytics/
 │
-├── index.html # Main portfolio homepage
-├── partner.html # Commission referral landing page
-├── /assests/styles.css # Global CSS styles
-├── /assets/ # Images and icons
-└── README.md # This file
+├── data/                 # Raw Excel or CSV input files
+├── visuals/              # Graphs and plots (PNG, PDF)
+├── reports/              # Generated PDF summaries
+├── scripts/              # Python scripts for automation
+└── README.md             # Project overview file
 
-1. Clone this repo or download the files  
-2. Open `index.html` in any browser  
-3. To update content:
-   - Edit `index.html` for homepage sections  
-   - Edit `partner.html` for the partner program  
-   - Update `styles.css` for design changes  
+🧭 Getting Started
 
----
+Clone this repository
 
-## 💡 Customization Tips
+Open the folder in VS Code
 
-- Change brand color using `--first-color` in `:root`
-- Replace placeholder projects with your own
-- Update pricing and contact info easily in HTML
-- Add tracking, analytics, or live chat if needed
+Install required libraries:
 
----
+pip install pandas numpy matplotlib seaborn reportlab openpyxl
 
-## 🤝 Partner Program
 
-A full landing page (`partner.html`) is included to recruit marketers or influencers on a **20% commission** model. It includes:
+Run the main script:
 
-- A clear description of how it works  
-- “I Agree” button that reveals the Google Form  
-- Auto-hiding loading message when the form is ready
+python main.py
 
----
+💡 Customization Tips
 
-## 📬 Contact Me
+Update file paths in the config.py file
 
-- 🌐 Website: https://ahmadkhan7.github.io/portfolio  
-- 📧 Email: akahmad.khan123@gmail.com  
-- 📱 WhatsApp: +92 315 6761081  
+Replace sample Excel sheets with your own business data
 
----
+Modify the visualization templates in /visuals
 
-## 📜 License
+Adjust automation timing using Windows Task Scheduler
 
-Feel free to use, edit, or learn from this project for personal or client work. Attribution appreciated but not required.
+📊 Example Projects
+Project Name	Description	Status
+Sales analytics dashboard, PDF generated and emailed successfully	✅ Completed
+Auto Email Sender	Sends reports automatically	🚧 Planned
+📬 Contact Me
+
+📧 Email: trendytreasures017@gmail.com
+
+💼 LinkedIn: https://www.linkedin.com/in/mr-waqas/
+
+🧠 GitHub: github.com/muhammad-waqas-analytics
+
+📜 License
+
+You are free to explore, fork, and learn from these projects for educational or professional purposes.
+Attribution is appreciated but not required.
