@@ -74,6 +74,23 @@ img {
   display: block;
 }
 
+/* Centered responsive image used on skills section */
+.centered-img {
+  display: block;
+  width: 100%;
+  max-width: 600px; /* prevents very large images on desktop */
+  height: auto;
+  margin: 25px auto;
+  border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 767px) {
+  .centered-img {
+    max-width: 92%;
+    margin: 16px auto;
+  }
+}
+
 /*===== CLASS CSS ===== */
 .section-title {
   position: relative;
